@@ -1,5 +1,5 @@
 header{
-  width: 100%;
+  
   background-color: rgba(15, 15, 15, 0.895);}
 
 header a {text-decoration: none;
@@ -125,7 +125,11 @@ body {
     z-index: -1;
   }
 
+footer {
+width: 100%;
+box-sizing: border-box;
 
+}
  
 }
 
