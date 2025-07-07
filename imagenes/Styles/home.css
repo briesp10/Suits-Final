@@ -110,6 +110,7 @@ header a:hover {
   
 
 body {
+    height: 100dvh;
     overflow-x: hidden;
     font-size: 14px;
     padding: 0;
@@ -125,6 +126,8 @@ body {
     object-fit: cover; 
     z-index: -1;
   }
+
+
 
 
 }
