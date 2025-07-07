@@ -1,4 +1,6 @@
-header{background-color: rgba(15, 15, 15, 0.895);}
+header{
+  width: 100%;
+  background-color: rgba(15, 15, 15, 0.895);}
 
 header a {text-decoration: none;
     color: rgb(251, 244, 244);
@@ -56,7 +58,8 @@ padding: 50px;
 
 }
 
-footer {   
+footer {
+width: 100%;   
 background-color: rgba(0, 0, 0, 0.768);
 padding: 20px;
 
