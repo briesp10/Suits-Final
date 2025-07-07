@@ -1,0 +1,110 @@
+header{background-color: rgba(15, 15, 15, 0.895);}
+
+header a {text-decoration: none;
+    color: rgb(251, 244, 244);
+    padding: 5px 12px;
+    font-weight: bold;}
+
+header nav {
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;}
+
+
+#videoPortada {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      
+    }
+
+
+
+body{ 
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+
+}
+
+
+h1{font-size: 50px;}
+
+
+p{font-family: Arial BLACK;}
+p{font-size: 18px;}
+p{color: rgb(0, 7, 13);}
+
+main {
+    flex: auto;
+}
+
+#trailer {
+display: flex;
+margin: 0 auto;
+padding: 50px;
+
+}
+
+footer {   
+background-color: rgba(0, 0, 0, 0.768);
+padding: 20px;
+
+}
+
+#piedepagina {
+text-align: center;    
+color: white;
+font-family: "Roboto", sans-serif;
+
+}
+
+header a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+
+
+
+@media (max-width: 500px) {
+  header nav {
+    font-size: 14px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #trailer {
+  
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    
+  }
+
+ 
+}
+
