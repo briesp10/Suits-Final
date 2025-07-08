@@ -166,3 +166,45 @@ background-color: black;
 border-radius: 90%;
 width: 200PX;
 }
+
+@media (max-width: 500px) {
+
+  h1 {
+     font-size: 20px;
+  }
+
+h2 {color: white; 
+  
+  font-size: 18px; 
+  
+}
+
+p  {
+  font-size: 15px;
+  }
+
+.sobrelaserie {
+               margin: 30px; 
+              }
+    
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+.imaGrande  {width: 100%;
+           height: auto;
+           margin: 0 auto;
+          }
+
+.imaChica {width: 100%;
+           height: auto;
+           margin: 0 auto;
+          }
+
+
+}
