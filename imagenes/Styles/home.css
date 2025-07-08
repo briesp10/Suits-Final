@@ -1,6 +1,13 @@
-header{
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
   
-  background-color: rgba(15, 15, 15, 0.895);}
+ header { background-color: rgba(15, 15, 15, 0.895);}
 
 header a {text-decoration: none;
     color: rgb(251, 244, 244);
@@ -36,16 +43,11 @@ body{
       background-position: center;
       background-size: cover;
       background-attachment: fixed;
+      font-size: 20px;
+      
 
 }
 
-
-h1{font-size: 50px;}
-
-
-p{font-family: Arial BLACK;}
-p{font-size: 18px;}
-p{color: rgb(0, 7, 13);}
 
 main {
     flex: auto;
@@ -69,6 +71,7 @@ text-align: center;
 color: white;
 font-family: "Roboto", sans-serif;
 
+
 }
 
 header a:hover {
@@ -79,29 +82,19 @@ header a:hover {
 
 
 
-
+/* mobile */
 @media (max-width: 500px) {
   header nav {
-    font-size: 14px;
+    font-size: 15px;
     padding: 8px;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
 
-  h1 {
-    font-size: 28px;
-    text-align: center;
-  }
-
-  p {
-    font-size: 14px;
-    text-align: center;
-  }
-
   #trailer {
   
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
     margin: 0 auto;
     display: block;
@@ -111,8 +104,55 @@ header a:hover {
 
 body {
     height: 100dvh;
+    overflow-y: auto;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  main {
+   flex: 1;
+
+  }
+
+  #videoPortada {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover; 
+    z-index: -1;
+  }
+
+}
+
+
+
+/*table*/
+
+@media (501px < width < 1024px) {
+  header nav {
+    font-size: 20px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #trailer {
+  
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    
+  }
+  
+body {
+    height: 100dvh;
     overflow-x: hidden;
-    font-size: 14px;
+    font-size: 15px;
     padding: 0;
     margin: 0;
   }
@@ -127,8 +167,4 @@ body {
     z-index: -1;
   }
 
-
-
-
 }
-
