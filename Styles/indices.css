@@ -73,11 +73,13 @@ img {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
-.contenedor {text-align: center;}
+.contenedor{
+  display: flex;
+  justify-content: center;}
 
-.sobrelaserie {padding: 3px;
-               margin: 80px; 
-              background-color: rgba(46, 45, 45, 0.827);}
+.sobrelaserie {padding: 5px;
+               margin: 5px; 
+               background-color: rgba(46, 45, 45, 0.827);}
     
 .otros {margin: 60px;
         padding: 2px;
@@ -85,14 +87,15 @@ img {
 
 }
 
-.actores {margin: 80px;
-         padding: 2px;
-         background-color: rgba(46, 45, 45, 0.827);
+.actores {margin: 20px;
+         padding: 5px;  
+          background-color: rgba(46, 45, 45, 0.827);
+          
       
       }
 
 .contac {margin: 60px;
-       text-align: center;
+       justify-content: center;
        background-color: rgba(255, 255, 255, 0);}
 
 .temp {margin: 80px; 
@@ -173,19 +176,21 @@ width: 200PX;
      font-size: 20px;
   }
 
-h2 {color: white; 
+  h2 {color: white; 
   
   font-size: 18px; 
   
 }
 
 p  {
-  font-size: 15px;
+  font-size: 10px;
   }
 
-.sobrelaserie {
-               margin: 30px; 
-              }
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;}            
     
 body {
     display: flex;
@@ -196,15 +201,22 @@ body {
     margin: 0;
   }
 
-.imaGrande  {width: 100%;
+.imaGrande, .imaChica  {
+  
+           
+           max-width: 70%;
            height: auto;
-           margin: 0 auto;
+           margin: 0;
+           
           }
 
-.imaChica {width: 100%;
-           height: auto;
-           margin: 0 auto;
-          }
+.sobrelaserie{
+justify-content: center;
+max-width: 70%;
 
+}
+
+nav{
+  font-size: 10px;}
 
 }

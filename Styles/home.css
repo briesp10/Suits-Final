@@ -50,7 +50,7 @@ body{
 
 
 main {
-    flex: auto;
+    flex: 1;
 }
 
 #trailer {
@@ -104,10 +104,14 @@ header a:hover {
 
 body {
     height: 100dvh;
-    overflow: hidden;
     font-size: 10px;
     padding: 0;
     margin: 0;
+  }
+
+  main {
+   flex: 1;
+
   }
 
   #videoPortada {
