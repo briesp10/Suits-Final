@@ -27,7 +27,7 @@ H2 {color: white;
 p  {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  color:white;
+  color: white;
   }
 
 nav{color: white; font-family: 'Courier New', Courier, monospace;font-size: 20px;}
@@ -79,28 +79,28 @@ img {
 
 .sobrelaserie {padding: 5px;
                margin: 5px; 
-               background-color: rgba(46, 45, 45, 0.827);}
+               background-color: rgba(3, 9, 49, 0.73);}
     
-.otros {margin: 60px;
-        padding: 2px;
-        background-color: rgba(46, 45, 45, 0.827);
+.otros {margin: 10px;
+        padding: 1px 2pc;
+        background-color: rgba(3, 9, 49, 0.73);
 
 }
 
-.actores {margin: 20px;
-         padding: 5px;  
-          background-color: rgba(46, 45, 45, 0.827);
+.actores {margin: 30px;
+          padding: 1px 4px;  
+          background-color: rgba(3, 9, 49, 0.73);
           
       
       }
 
 .contac {margin: 60px;
-       justify-content: center;
-       background-color: rgba(255, 255, 255, 0);}
+        justify-content: center;
+         background-color: rgba(255, 255, 255, 0);}
 
 .temp {margin: 80px; 
       border: 20px; 
-      background-color: rgba(233, 234, 234, 0.79);
+      background-color: rgba(3, 9, 49, 0.73);
       
     }
 
@@ -113,10 +113,14 @@ img {
 }
 
 
-.t1, .t2, .t3 {background-color: rgba(33, 40, 168, 0.433);
-     padding: 3px;
-    
+.t1, .t2, .t3 {background-color:  rgba(46, 45, 45, 0.778);
+     padding: 10px;
+     display: flex;
+     text-align: justify;
+     margin: 10px;
+     gap: 30%;
 }
+
 
 .musiFondo {
   position: fixed;
@@ -218,5 +222,18 @@ max-width: 70%;
 
 nav{
   font-size: 10px;}
+
+.t1, .t2, .t3 {
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+     margin: 10px;
+     gap: 30%;
+}
+
+.temp {margin: 30px; 
+      border: 20px; 
+      
+    }
 
 }
