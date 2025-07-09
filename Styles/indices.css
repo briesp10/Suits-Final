@@ -141,6 +141,7 @@ font-family: "Roboto", sans-serif;
 
 }
 
+
 .formulario {
 background-color: rgba(5, 5, 5, 0.752);
 padding: 20px;
@@ -149,7 +150,8 @@ padding: 20px;
 form{
   display: flex;
   flex-direction: column;
-  width: 30%;
+  max-width: 400px;
+  width: 90%;
   margin: 0 auto;
   gap: 20px;
 }
@@ -166,13 +168,17 @@ input {
 height: 30px;
 }
 
-#boton{
-color: brown;
-font-size: 25PX;
-background-color: black;
-border-radius: 90%;
-width: 200PX;
+
+#boton {
+  font-size: 1.1rem;
+  border-radius: 12px;
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #000;
+  color: brown;
+  border: none;
 }
+
 
 @media (max-width: 500px) {
 
@@ -206,17 +212,19 @@ body {
   }
 
 .imaGrande, .imaChica  {
-  
-           
-           max-width: 70%;
+
+           max-width: 80%;
            height: auto;
-           margin: 0;
-           
+           margin-left: 10%;
+           margin-right: 10%;
           }
 
 .sobrelaserie{
 justify-content: center;
-max-width: 70%;
+max-width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+
 
 }
 
@@ -235,5 +243,25 @@ nav{
       border: 20px; 
       
     }
+
+  #net {
+    font-size: 15px;
+
+  }
+
+  #imgnet {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  input, textarea, button {
+    width: 80%;
+    height: auto;
+    font-size: 1em;
+    padding: 0.8rem; 
+}
+
+
+
 
 }
