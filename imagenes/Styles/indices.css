@@ -27,7 +27,7 @@ H2 {color: white;
 p  {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  color:white;
+  color: white;
   }
 
 nav{color: white; font-family: 'Courier New', Courier, monospace;font-size: 20px;}
@@ -79,28 +79,28 @@ img {
 
 .sobrelaserie {padding: 5px;
                margin: 5px; 
-               background-color: rgba(46, 45, 45, 0.827);}
+               background-color: rgba(3, 9, 49, 0.73);}
     
-.otros {margin: 60px;
-        padding: 2px;
-        background-color: rgba(46, 45, 45, 0.827);
+.otros {margin: 10px;
+        padding: 1px 2pc;
+        background-color: rgba(3, 9, 49, 0.73);
 
 }
 
-.actores {margin: 20px;
-         padding: 5px;  
-          background-color: rgba(46, 45, 45, 0.827);
+.actores {margin: 30px;
+          padding: 1px 4px;  
+          background-color: rgba(3, 9, 49, 0.73);
           
       
       }
 
 .contac {margin: 60px;
-       justify-content: center;
-       background-color: rgba(255, 255, 255, 0);}
+        justify-content: center;
+         background-color: rgba(255, 255, 255, 0);}
 
 .temp {margin: 80px; 
       border: 20px; 
-      background-color: rgba(233, 234, 234, 0.79);
+      background-color: rgba(3, 9, 49, 0.73);
       
     }
 
@@ -113,10 +113,14 @@ img {
 }
 
 
-.t1, .t2, .t3 {background-color: rgba(33, 40, 168, 0.433);
-     padding: 3px;
-    
+.t1, .t2, .t3 {background-color:  rgba(46, 45, 45, 0.778);
+     padding: 10px;
+     display: flex;
+     text-align: justify;
+     margin: 10px;
+     gap: 30%;
 }
+
 
 .musiFondo {
   position: fixed;
@@ -137,6 +141,7 @@ font-family: "Roboto", sans-serif;
 
 }
 
+
 .formulario {
 background-color: rgba(5, 5, 5, 0.752);
 padding: 20px;
@@ -145,7 +150,8 @@ padding: 20px;
 form{
   display: flex;
   flex-direction: column;
-  width: 30%;
+  max-width: 400px;
+  width: 90%;
   margin: 0 auto;
   gap: 20px;
 }
@@ -162,15 +168,19 @@ input {
 height: 30px;
 }
 
-#boton{
-color: brown;
-font-size: 25PX;
-background-color: black;
-border-radius: 90%;
-width: 200PX;
+
+#boton {
+  font-size: 1.1rem;
+  border-radius: 12px;
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #000;
+  color: brown;
+  border: none;
 }
 
-@media (max-width: 500px) {
+
+@media (max-width: 768px) {
 
   h1 {
      font-size: 20px;
@@ -182,8 +192,8 @@ width: 200PX;
   
 }
 
-p  {
-  font-size: 10px;
+nav, p  {
+  font-size: 1rem;
   }
 
 
@@ -201,22 +211,66 @@ body {
     margin: 0;
   }
 
+
+
 .imaGrande, .imaChica  {
-  
-           
-           max-width: 70%;
+
+           max-width: 80%;
            height: auto;
-           margin: 0;
-           
+           margin-left: 10%;
+           margin-right: 10%;
           }
 
 .sobrelaserie{
 justify-content: center;
-max-width: 70%;
+max-width: 80%;
+margin-left: 10%;
+margin-right: 10%;
 
 }
 
-nav{
-  font-size: 10px;}
+img {
+  width: clamp(60px, 20vw, 100px);
+  height: auto;
+
+}
+
+
+.t1, .t2, .t3 {
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+     margin: 10px;
+     gap: 30%;
+}
+
+.temp {margin: 30px; 
+      border: 20px; 
+      
+    }
+
+  #net {
+    font-size: 15px;
+
+  }
+
+  #imgnet {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  input, textarea, button {
+    max-width: 100%;
+    height: auto;
+    font-size: 1rem;
+    padding: 0.8rem; 
+}
+
+.ocultarTexto {
+  display: none;
+}
+
+
+
 
 }

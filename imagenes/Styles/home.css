@@ -50,7 +50,7 @@ body{
 
 
 main {
-    flex: auto;
+    flex: 1;
 }
 
 #trailer {
@@ -83,28 +83,25 @@ header a:hover {
 
 
 /* mobile */
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   header nav {
-    font-size: 15px;
+    font-size: 1rem;
     padding: 8px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.1rem;
   }
 
   #trailer {
   
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
-    margin: 0 auto;
-    display: block;
     
   }
   
 
 body {
     height: 100dvh;
-    overflow-y: auto;
     font-size: 10px;
     padding: 0;
     margin: 0;
@@ -131,7 +128,7 @@ body {
 
 /*table*/
 
-@media (501px < width < 1024px) {
+/*@media (501px < width < 1024px) {
   header nav {
     font-size: 20px;
     padding: 8px;
@@ -167,4 +164,4 @@ body {
     z-index: -1;
   }
 
-}
+}*/
