@@ -180,7 +180,7 @@ height: 30px;
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
 
   h1 {
      font-size: 20px;
@@ -192,8 +192,8 @@ height: 30px;
   
 }
 
-p  {
-  font-size: 10px;
+nav, p  {
+  font-size: 1rem;
   }
 
 
@@ -211,6 +211,8 @@ body {
     margin: 0;
   }
 
+
+
 .imaGrande, .imaChica  {
 
            max-width: 80%;
@@ -225,11 +227,14 @@ max-width: 80%;
 margin-left: 10%;
 margin-right: 10%;
 
+}
+
+img {
+  width: clamp(60px, 20vw, 100px);
+  height: auto;
 
 }
 
-nav{
-  font-size: 10px;}
 
 .t1, .t2, .t3 {
      display: flex;
@@ -255,10 +260,14 @@ nav{
   }
   
   input, textarea, button {
-    width: 80%;
+    max-width: 100%;
     height: auto;
-    font-size: 1em;
+    font-size: 1rem;
     padding: 0.8rem; 
+}
+
+.ocultarTexto {
+  display: none;
 }
 
 
