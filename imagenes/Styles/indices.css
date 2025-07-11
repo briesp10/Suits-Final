@@ -132,8 +132,8 @@ img {
 }
 
 .musiFondo audio {
-   width: 200px;
-   left: 100px;
+  width: 200px;
+  left: 100px;
 }
 
 #temporadas {
@@ -271,6 +271,9 @@ img {
 }
 
 
-
+.musiFondo audio {
+  max-width: 60%;
+  left: auto;
+}
 
 }

@@ -10,21 +10,43 @@
 </head>
 <body>
 
-      <video id="videoPortada" autoplay muted loop>
+       <video id="videoPortada" autoplay muted loop>
 
-        <source src="/videos/suits-intro.mp4" type="video/mp4">
+      <source src="/videos/suits-intro.mp4" type="video/mp4">
 
-        
       </video>
 
-    <header>
-      <nav>
 
-       <a href="/paginas/sobrelaserie.html">SOBRE LA SERIE</a>
-       <a href="/paginas/personaje.html">ELENCO Y PERSONAJES</a>
-       <a href="/paginas/temporadas.html">TEMPORADAS Y EPISODIOS</a>
-       <a href="/paginas/criticas.html">CRITICAS Y SERIE DERIVADA</a>
-       <a href="/paginas/contacto.html">CONTACTO</a>
+  
+ <div id="panelhamburguesa">
+
+       <a href="/paginas/sobrelaserie.html" class="serie">SOBRE LA SERIE</a>
+       <a href="/paginas/personaje.html" class="serie">ELENCO Y PERSONAJES</a>
+       <a href="/paginas/temporadas.html" class="serie">TEMPORADAS Y EPISODIOS</a>
+       <a href="/paginas/criticas.html" class="serie">CRITICAS Y SERIE DERIVADA</a>
+       <a href="/paginas/contacto.html" class="serie">CONTACTO</a>
+
+</div>
+    
+    <header>
+
+
+
+
+
+      <nav>
+  
+
+            <a href="#panelhamburguesa" id="abrir">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#ffffff"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
+            </a>
+                <a href="#" id="cerrar"> 
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                    fill="#ffffff">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
+            </a>
+
   
       </nav>
 
@@ -39,6 +61,8 @@
       </video>
 
    </main>
+
+
 
 <footer>
 
