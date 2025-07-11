@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-svg {
+ svg {
   display: none;
 }
 
@@ -37,56 +37,6 @@ svg {
   .serie:hover {
     background-color: rgba(255, 255, 255, 0.1);
   }
-
-
-
-
-
-/*
-
-header {
-  display: flex;
-  flex-direction: row;       /
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(15, 15, 15, 0.895);
-  padding: 1rem;
-  gap: 1rem;                    
-}
-
-
-.serie {
-  display:block;
-  background-color: rgba(15, 15, 15, 0.895);
-  width: auto;
-  font-size: 1rem;
-  font-family: 'Courier New', Courier, monospace;
-  color: white;
-  padding: 1rem;
-  text-decoration: none;
-  font-weight: bold;
-  text-align: center;
-  width: auto;                  
-}
-
-
-
-
-/*header a {text-decoration: none;
-    color: rgb(251, 244, 244);
-    padding: 5px 12px;
-    font-weight: bold;}
-
-header nav {
-    text-align: center;
-    padding: 15px;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;}*/
-
-
-
-
-
 
 
 #videoPortada {
@@ -142,12 +92,6 @@ font-family: "Roboto", sans-serif;
 
 }
 
-/*header a:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
-  transition: all 0.3s ease;
-}*/
-
 
 
 /* mobile */
@@ -158,7 +102,6 @@ display: flex;
 margin: 1rem;
 
 }
-
 
   #trailer {
   
@@ -206,7 +149,6 @@ body {
   
            
         }
-
         
 .serie {
 
