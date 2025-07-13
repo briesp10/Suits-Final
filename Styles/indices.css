@@ -179,6 +179,14 @@ height: 30px;
   border: none;
 }
 
+#botontexto{
+display: none;
+
+}
+
+
+
+
 
 @media (max-width: 768px) {
 
@@ -276,4 +284,31 @@ img {
   left: auto;
 }
 
+
+#botontexto {
+  display: block;
 }
+
+
+.leermas {
+ background-color: rgba(0, 0, 0, 0.44);
+ color: white;
+ border-radius: 1rem;
+ border: none;
+ padding: 0.7rem;
+
+}
+
+.mastexto {
+display: none;
+
+}
+
+.ver {
+display: block;
+
+}
+
+
+}
+
